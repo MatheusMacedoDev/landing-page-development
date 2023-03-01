@@ -1,5 +1,43 @@
+@font-face {
+    font-family: "Bebas-Neue";
+    src: url(../assets/fonts/BebasNeue-Regular.ttf);
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+.container-grid {
+    min-width: 997px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header */
+
+.main-header {
+    height: 60px;
+    background-color: #F9003D;
+}
+
+.main-header .header-flex {
+    display: flex;
+    justify-content: flex-end;
+    height: 100%;
+}
+
+.navigator {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    height: 100%;
+}
+
+.navigator a {
+    font-family: "Bebas-Neue";
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
 }
