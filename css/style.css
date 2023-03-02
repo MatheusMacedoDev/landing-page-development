@@ -50,3 +50,46 @@
 .navigator a:hover {
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
+
+/* Content */
+
+/* Banner */
+
+.content .banner {
+    height: 740px;
+    background-image: url(../assets/images/banner_background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+
+.content .banner .banner-content {
+    padding-top: 200px;
+    padding-bottom: 62px;
+    width: 48%;
+}
+
+.content .banner .banner-content h1 {
+    font-family: "Bebas-Neue";
+    font-size: 96px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+.content .banner .banner-content h2 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 52px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #F9003D;
+}
+
+.content .banner .banner-content hr {
+    margin: 20px 0;
+    border: 1px solid #FFAF00;
+    width: 100%;
+}
+
+.content .banner .banner-content #mouse-image {
+    margin-top: 30px;
+}
