@@ -5,6 +5,11 @@
     src: url(../assets/fonts/BebasNeue-Regular.ttf);
 }
 
+@font-face {
+    font-family: "OpenSans";
+    src: url(../assets/fonts/OpenSans-Regular.ttf);
+}
+
 /* General */
 
 * {
@@ -92,4 +97,53 @@
 
 .content .banner .banner-content #mouse-image {
     margin-top: 30px;
+}
+
+/* About */
+
+.content .about {
+    padding: 80px;
+    background-color: #080324;
+}
+
+.content .about .section-title {
+    margin-bottom: 50px;
+    font-family: "Bebas-Neue";
+    font-size: 64px;
+    color: #F9003D;
+}
+
+.content .about .about-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content .about .about-wrapper img {
+    width: 40%;
+}
+
+.content .about .about-wrapper .about-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+    color: #FFF;
+}
+
+.content .about .about-wrapper .about-text .participants {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.content .about .about-wrapper .about-text .text-highlighted {
+    font-family: "Bebas-Neue";
+    font-size: 64px;
+    color: #FFAF00;
+}
+
+.content .about .about-wrapper .about-text .text {
+    font-family: "OpenSans";
+    font-size: 18px;
 }
