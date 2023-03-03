@@ -148,3 +148,40 @@
     font-family: "OpenSans";
     font-size: 18px;
 }
+
+/* Info */
+
+.content .info {
+    display: flex;
+    align-items: center;
+    height: 200px;
+    background-image: url(../assets/images/info-background.png);
+}
+
+.content .info .info-flex {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.content .info .info-item .info-title {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #FFF;
+    margin-bottom: 15px;
+}
+
+.content .info .info-item .info-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 28px;
+    font-weight: bold;
+    width: 290px;
+    height: 100px;
+    border: 1px solid #A259F7;
+    color: #A259F7;
+}
