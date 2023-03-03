@@ -226,3 +226,19 @@
     right: 25px;
     bottom: 25px;
 }
+
+/* Footer */
+
+.main-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F9003D;
+    padding: 28px 0;
+}
+
+.main-footer .copyright {
+    font-family: "OpenSans";
+    font-size: 18px;
+    color: #FFF;
+}
