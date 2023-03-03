@@ -180,6 +180,7 @@
     font-family: 'Courier New', Courier, monospace;
     font-size: 28px;
     font-weight: bold;
+    text-transform: uppercase;
     width: 290px;
     height: 100px;
     border: 1px solid #A259F7;
