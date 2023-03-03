@@ -65,6 +65,7 @@
     background-image: url(../assets/images/banner_background.png);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: bottom;
     color: #fff;
 }
 
