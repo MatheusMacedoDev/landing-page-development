@@ -1,0 +1,44 @@
+/* Table */
+@media screen and (max-width: 767px) {
+    .container-grid {
+        width: 95%;
+        min-width: 0;
+    }
+
+    /* Main Header */
+
+    .main-header img#menu {
+        display: block;
+    }
+
+    .navigator {
+        position: fixed;
+        top: 59px;
+        left: -80vw;
+        width: 80vw;
+        height: calc(100vh - 59px);
+        background-color: #F9003D;
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding: 50px 0;
+        opacity: 0;
+        transition: left 0.4s, opacity 0.6s;
+    }
+
+    .show-menu {
+        left: 0;
+        opacity: 1;
+    }
+
+    /* Content */
+
+    /* Banner */
+
+    .content .banner .banner-content {
+        width: 60%;
+    }
+
+    .content .banner .banner-content h1 {
+        font-size: 40px;
+    }
+}

@@ -19,6 +19,7 @@
 }
 
 .container-grid {
+    width: 80%;
     min-width: 997px;
     max-width: 1200px;
     margin: 0 auto;
@@ -35,6 +36,10 @@
     display: flex;
     justify-content: flex-end;
     height: 100%;
+}
+
+.main-header img#menu {
+    display: none;
 }
 
 .navigator {

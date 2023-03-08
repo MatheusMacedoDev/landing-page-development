@@ -6,16 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/smartphone-style.css" media="(max-width: 767px)">
 </head>
 <body>
     <header class="main-header">
         <div class="container-grid header-flex">
-            <nav class="navigator">
+            <nav class="navigator" id="nav-menu">
                 <a href="">Início</a>
                 <a href="">Sobre</a>
                 <a href="">Desafios</a>
                 <a href="">Endereço</a>
             </nav>
+            <img onclick="toggleMenu()" src="./assets/icons/menu.svg" alt="Menu icon" id="menu">
         </div>
     </header>
     <main class="content">
@@ -25,7 +27,7 @@
                     <h1>Desenvolvimento de sistemas</h1>
                     <hr>
                     <h2>Senai informática</h2>
-                    <img id="mouse-image" src="/assets/images/mouse-down.svg" alt="Mouse">
+                    <img id="mouse-image" src="./assets/images/mouse-down.svg" alt="Mouse">
                 </article>
             </div>
         </section>
@@ -71,5 +73,6 @@
     <footer class="main-footer">
         <p class="copyright">Copyright © 2020 - Escola Senai de Informática</p>
     </footer>
+    <script src="./js/script.js"></script>
 </body>
 </html>
